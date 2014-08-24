@@ -25,7 +25,7 @@ mot_pos = thread_diam/2 + wheel_diam/2;
 
 
 //bearing(pos=[axes/2-mot_pos-11+1.5,-axes/2,1]);
-sup_gallet();
+//sup_gallet();
 
 module sup_gallet(){
 

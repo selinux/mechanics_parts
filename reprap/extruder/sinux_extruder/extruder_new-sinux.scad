@@ -1,7 +1,8 @@
-include </usr/share/openscad/libraries/MCAD/motors.scad>
-include </usr/share/openscad/libraries/MCAD/bearing.scad>
-include </usr/share/openscad/libraries/MCAD/nuts_and_bolts.scad>
-
+include <MCAD/motors.scad>
+include <MCAD/bearing.scad>
+include <MCAD/nuts_and_bolts.scad>
+include <ruler/ruler.scad>
+include <write/Write.scad>
 include <support_gallet.scad>
 //  Part variables
 //
@@ -25,6 +26,12 @@ screw_diam = 3;	// screw diameter
 
 mot_pos = thread_diam/2 + wheel_diam/2;
 
+translate([-35,-60,0])
+    ruler(lenght = 20, t=[5,0,0], r=[0,90,-90]);
+translate([-35,-45,0])
+    write("by sinux @",h=6,t=3);
+translate([-35,-52,0])
+    write("Post Tenebras Lab",h=5,t=3);
 
 color("Purple", 1.0){
     translate([-axes/2,-axes/2,1.5])
