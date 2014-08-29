@@ -69,9 +69,19 @@ module support(){
 
         // extruder support
         // -----------------
-            translate([-9.5,motor_l/2+thickness/2,12.5-thickness])
-                cube([motor_l+24,thickness,25], center=true);
+            translate([-4.5,motor_l/2+thickness/2,12.5-thickness])
+                cube([motor_l+14,thickness,25], center=true);
             
+
+          
+        // foot
+        //
+            translate([7,motor_l/2+thickness,-thickness])
+                cube([14,0.5,25]);
+            translate([-32.5,motor_l/2+thickness,-thickness])
+                cube([12,0.5,25]);
+
+
         // thread guide (part of support)
         // -------------------------------
            	translate([-mot_pos,motor_l/2,thread_elev]){
