@@ -6,7 +6,7 @@ include <write/Write.scad>
 include <support_gallet.scad>
 //  Part variables
 //
-thickness = 2.5;	// epaisseur piece
+thickness = 3.5;	// epaisseur piece
 chamfer = 0.8;
 
 //  Printer variables
@@ -34,7 +34,7 @@ translate([-35,-52,0])
     write("Post Tenebras Lab",h=5,t=3);
 
 color("Purple", 1.0){
-    translate([-axes/2,-axes/2,1.5])
+    translate([-axes/2,-axes/2,0.2])
         rotate([0,0,189])
             sup_gallet();
 }
@@ -74,8 +74,8 @@ module support(){
 
         // extruder support
         // -----------------
-            translate([-3.5,motor_l/2+thickness/2,10-thickness])
-                cube([motor_l+12,thickness,20], center=true);
+            translate([-9.5,motor_l/2+thickness/2,10-thickness])
+                cube([motor_l+24,thickness,20], center=true);
             
         // thread guide (part of support)
         // -------------------------------
@@ -97,14 +97,15 @@ module support(){
 
         // screw support
         // --------------
-            translate([-24,17,thread_elev]){
+            translate([-24,17,thread_elev-2]){
                 rotate([12,-90,0]){
                     translate(0,0,h_cube/2){
                         difference(){
-                            cube([10,11,h_cube], center=true);
-                            translate([0,0,-h_cube/2-1])
+                            cube([16,11,h_cube], center=true);
+                            translate([2,0,-h_cube/2-1])
                                 cylinder(r=3.2, h=h_cube/2+1, $fn = 6);  // tips = 6 pans
-                            cylinder(r=1.5,h=h_cube*4, $fn=50);
+                            translate([2,0,0])
+                                cylinder(r=1.5,h=h_cube*4, $fn=50);
                         }
                     }
                 }
@@ -113,7 +114,7 @@ module support(){
 
         // motor hole with clearance
         // ---------------------------
-        translate([-1.5,0,0])
+        translate([-1.5,0,])
         	cylinder(d=motor_d+1, h=thickness*50, center=true, $fn=100);
         translate([1.5,0,0])
         	cylinder(d=motor_d+1, h=thickness*50, center=true, $fn=100);
@@ -123,8 +124,9 @@ module support(){
         translate([-mot_pos,motor_l/2,thread_elev+thickness/2])
         rotate([-90,0,0]){
             union(){
-                cylinder(d=20, h=6, center=true);
-                translate([0,-10,0])
+                translate([0,0,1])
+                    cylinder(d=20, h=7, center=true);
+                translate([0,-10,1])
                     cube([20,20,6], center=true);
             }
         }
@@ -158,7 +160,7 @@ module support(){
 // =========================
 module extruder(){
 
-    translate([-mot_pos, motor_l/2+thickness+1,thread_elev]){
+    translate([-mot_pos, motor_l/2+thickness+2,thread_elev]){
         rotate([90,0,0]){
             color( "Brown" , 1.0){
     

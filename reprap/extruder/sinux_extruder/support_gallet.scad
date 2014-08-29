@@ -29,10 +29,10 @@ mot_pos = thread_diam/2 + wheel_diam/2;
 
 module sup_gallet(){
 
-    sup_thick = 1;
-    inside_height = 7+1;
+    sup_thick = 2;
+    inside_height = 6.5;
 
-    ep_h = 3;       // hauteur epaulement
+    ep_h = 0.2;       // hauteur epaulement
 
 
     difference(){

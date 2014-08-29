@@ -6,7 +6,7 @@ include </usr/share/openscad/libraries/MCAD/nuts_and_bolts.scad>
 include <support_gallet.scad>
 //  Part variables
 //
-thickness = 2.5;	// epaisseur piece
+thickness = 3.5;	// epaisseur piece
 chamfer = 0.8;
 
 //  Printer variables
@@ -27,7 +27,7 @@ screw_diam = 3;	// screw diameter
 mot_pos = thread_diam/2 + wheel_diam/2;
 
 
-translate([-40,-20,10.5291-thickness])
+translate([-40,-25,10.5291-thickness+1.4])
     rotate([0,-90,0])
         rotate([0,0,168])
             sup_gallet();
@@ -68,8 +68,8 @@ module support(){
 
         // extruder support
         // -----------------
-            translate([-3.5,motor_l/2+thickness/2,10-thickness])
-                cube([motor_l+12,thickness,20], center=true);
+            translate([-9.5,motor_l/2+thickness/2,10-thickness])
+                cube([motor_l+24,thickness,20], center=true);
             
         // thread guide (part of support)
         // -------------------------------
@@ -91,14 +91,15 @@ module support(){
 
         // screw support
         // --------------
-            translate([-24,17,thread_elev]){
+            translate([-24,17,thread_elev-2]){
                 rotate([12,-90,0]){
                     translate(0,0,h_cube/2){
                         difference(){
                             cube([16,11,h_cube], center=true);
-                            translate([0,0,-h_cube/2-1])
+                            translate([2,0,-h_cube/2-1])
                                 cylinder(r=3.2, h=h_cube/2+1, $fn = 6);  // tips = 6 pans
-                            cylinder(r=1.5,h=h_cube*4, $fn=50);
+                            translate([2,0,0])
+                                cylinder(r=1.5,h=h_cube*4, $fn=50);
                         }
                     }
                 }
@@ -107,7 +108,7 @@ module support(){
 
         // motor hole with clearance
         // ---------------------------
-        translate([-1.5,0,0])
+        translate([-1.5,0,])
         	cylinder(d=motor_d+1, h=thickness*50, center=true, $fn=100);
         translate([1.5,0,0])
         	cylinder(d=motor_d+1, h=thickness*50, center=true, $fn=100);
@@ -117,8 +118,9 @@ module support(){
         translate([-mot_pos,motor_l/2,thread_elev+thickness/2])
         rotate([-90,0,0]){
             union(){
-                cylinder(d=20, h=6, center=true);
-                translate([0,-10,0])
+                translate([0,0,1])
+                    cylinder(d=20, h=7, center=true);
+                translate([0,-10,1])
                     cube([20,20,6], center=true);
             }
         }
