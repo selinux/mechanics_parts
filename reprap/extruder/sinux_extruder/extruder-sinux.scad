@@ -26,11 +26,12 @@ screw_diam = 3;	// screw diameter
 
 mot_pos = thread_diam/2 + wheel_diam/2;
 
-
-translate([-40,-25,10.5291-thickness+1.4])
-    rotate([0,-90,0])
-        rotate([0,0,168])
-            sup_gallet();
+/* decommenter pour imprimer le gallet aussi
+ */
+//translate([-40,-25,10.5291-thickness+1.4])
+//    rotate([0,-90,0])
+//        rotate([0,0,168])
+//            sup_gallet();
 
 
 support();
@@ -68,8 +69,8 @@ module support(){
 
         // extruder support
         // -----------------
-            translate([-9.5,motor_l/2+thickness/2,10-thickness])
-                cube([motor_l+24,thickness,20], center=true);
+            translate([-9.5,motor_l/2+thickness/2,12.5-thickness])
+                cube([motor_l+24,thickness,25], center=true);
             
         // thread guide (part of support)
         // -------------------------------
@@ -88,6 +89,9 @@ module support(){
             
                 }
             }
+
+            translate([motor_l/2-thickness/2+0.75,0,0])
+                cube([thickness,22,10]);
 
         // screw support
         // --------------
