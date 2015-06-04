@@ -21,11 +21,11 @@ length = 157;      // case length
 thickness = 2;     // case thickness
 diam = 10;
 
-top_case();
+
+top_case_b200();
 
 
-
-module top_case(){
+module top_case_b200(){
     difference(){
         /* union of base, 2 side and 6 supports*/
         union(){
@@ -48,13 +48,13 @@ module top_case(){
             }
             translate([-15.5,0,0]){
                 for(i=[0:1]){
-                    translate([-120*i,48.5,2]){
+                    translate([-120*i,47.5,2]){
                         difference(){
                             cylinder(d=7, h=17.5, $fn=50);
                             cylinder(d=1.5, h=15, $fn=50);
                         }
                     }
-                    translate([-120*i,-48.5,2]){
+                    translate([-120*i,-47.5,2]){
                         difference(){
                             cylinder(d=7, h=17.5, $fn=50);
                             cylinder(d=1.5, h=15, $fn=50);
@@ -68,8 +68,8 @@ module top_case(){
             linear_extrude(height=length, $fn=50)
                 import("2d-sections/top_outside_remove.dxf");
         }
-        translate([-103,18,19.3]){
-            write("sinux @", h=10, t=1);
+        translate([-97,18,18]){
+            write("sinux", h=10, t=2);
         }
 
 //        translate([-135,-12,19.3]){
@@ -80,8 +80,8 @@ module top_case(){
 //            write("USRP B200 (sdr)", h=10, t=1);
 //        }
         scale([1.25,1.25,1]){
-        translate([-63,-12,19]){
-            linear_extrude(height = 1, center = false, convexity = 10)
+        translate([-63,-12,18]){
+            linear_extrude(height = 3, center = false, convexity = 10)
                 import (file = "logo_PTL_reduit.dxf");
         }
     }

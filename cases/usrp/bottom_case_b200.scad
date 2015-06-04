@@ -19,9 +19,9 @@ length = 157;      // case length
 thickness = 2;     // case thickness
 diam = 10;
 
-bottom_case();
+bottom_case_b200();
 
-module bottom_case(){
+module bottom_case_b200(){
     difference(){
         
         /* union of base, 2 side and 6 supports*/
@@ -45,7 +45,7 @@ module bottom_case(){
             }
             
             /* 3 support (middle one is unused) */
-            translate([-15.5,48.5,-7]){
+            translate([-15.5,46.5,-7]){
                 for(i=[0:2]){
                     translate([-60*i,0,0]){
                         difference(){
@@ -61,7 +61,7 @@ module bottom_case(){
                     }
                 }
             }
-            translate([-15.5,-48.5,-7]){
+            translate([-15.5,-46.5,-7]){
                 for(i=[0:2]){
                     translate([-60*i,0,0]){
                         difference(){
