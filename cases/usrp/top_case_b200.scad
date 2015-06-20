@@ -80,8 +80,8 @@ module top_case_b200(){
 //            write("USRP B200 (sdr)", h=10, t=1);
 //        }
         scale([1.25,1.25,1]){
-        translate([-63,-12,18]){
-            linear_extrude(height = 3, center = false, convexity = 10)
+        translate([-63,-12,0]){
+            linear_extrude(height = 302, center = false, convexity = 10)
                 import (file = "logo_PTL_reduit.dxf");
         }
     }
