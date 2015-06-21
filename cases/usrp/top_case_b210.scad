@@ -63,22 +63,27 @@ module top_case_b210(){
                 }
             }
         }
+        
+        /* two hole for reset buttons */
+        translate([-16.5,17,0]){
+            cylinder(d=6, h=30, $fn=50);
+        }
+        translate([-21.5,-27.5,0]){
+            cylinder(d=6, h=30, $fn=50);
+        }
         /* remove support overstep */
         rotate([0,-90,0]){
             linear_extrude(height=length, $fn=50)
                 import("2d-sections/top_outside_remove.dxf");
-        }
-        translate([-97,18,18]){
-            write("sinux", h=10, t=2);
         }
 
 //        translate([-135,-12,19.3]){
 //            write("Post Tenebras Lab", h=10, t=1);
 //        }
 
-//        translate([-115,-32,19.3]){
-//            write("USRP B200 (sdr)", h=10, t=1);
-//        }
+        translate([-110,20,15]){
+            write("USRP B210", h=10, t=10);
+        }
         scale([1.25,1.25,1]){
         translate([-63,-12,18]){
             linear_extrude(height = 3, center = false, convexity = 10)
