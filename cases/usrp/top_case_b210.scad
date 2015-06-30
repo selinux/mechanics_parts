@@ -65,7 +65,7 @@ module top_case_b210(){
         }
         
         /* two hole for reset buttons */
-        translate([-16.5,17,0]){
+        translate([-16.5,16,0]){
             cylinder(d=6, h=30, $fn=50);
         }
         translate([-21.5,-27.5,0]){

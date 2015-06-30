@@ -84,5 +84,8 @@ module bottom_case_b210(){
             linear_extrude(height=length, $fn=50)
                 import("2d-sections/bottom_outside_remove.dxf");
         }
+        translate([-15.5,42,0]){
+            cube(size=[15,5,6], center = true);
+        };
     }
 }
