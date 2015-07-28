@@ -28,8 +28,8 @@ difference(){
     }                
  
     /* remove angle */
-    rotate([0,90,30]){
-        translate([-4.5,0,-1]){   
+    rotate([0,90,60]){
+        translate([0,0,0]){   
             linear_extrude(height=50, center=true, $fn=50){       
                 import("laser_focal_support_2.dxf");
             }
@@ -40,10 +40,12 @@ difference(){
 
     /* remove angle */
     rotate([0,90,150]){
-        translate([-4.5,0,0.5]){
+        translate([0,0,0]){
             linear_extrude(height=50, center=true, $fn=50){
                 import("laser_focal_support_2.dxf");
             }
         }
     }
 }
+ 
+ 
