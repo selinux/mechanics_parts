@@ -23,17 +23,18 @@ ext_dia = 18;
 length = 15;
 support_depth = 5;
 
+resolution = 100;
 
 difference() {
     union(){
-        linear_extrude(height=support_depth, scale = 0.97, $fn=50)
+        linear_extrude(height=support_depth, scale = 0.97, $fn=resolution)
                             import("section_0.dxf");
         
-        cylinder(d = ext_dia, h = length, $fn = 50);
+        cylinder(d = ext_dia, h = length, $fn = resolution/2);
     }
                             
-    linear_extrude(height=support_depth*3, center =true, $fn=50)
+    linear_extrude(height=support_depth*3, center =true, $fn = resolution/2)
                             import("section_1.dxf");        
 
-    cylinder(d = axe_dia, h = length*2.5, center =true, $fn = 50);
+    cylinder(d = axe_dia, h = length*2.5, center =true, $fn = resolution/2);
 }
