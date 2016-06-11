@@ -1,13 +1,13 @@
-/* =====================================================================================
+/* =====================================================================
  *
  *       Filename:  bearing-lme12_22x32.scad
  *
  *    Description:  linear bearing support LME12UU
-                    
-                    function diameter : 12
+ *
+ *                  function diameter : 12
  *                  external diameter : 22
-                    length            : 32
-                    
+ *                  length            : 32
+ *
  *        Version:  1.0
  *        Created:  07 06 2016
  *       Revision:  none
@@ -15,7 +15,7 @@
  *
  *         Author:  Sebastien Chassot (sinux), seba.ptl@sinux.net
  *
- * =====================================================================================
+ * =====================================================================
  */
 
 
