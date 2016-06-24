@@ -14,30 +14,40 @@
  * =====================================================================
  */
 
+bottom_axeX();
 
 /* body X extrude */
-difference(){
-    intersection() {
-        rotate([90, 0, 0])
-            linear_extrude(height = 100, center = true, $fn=50)
-                    import("axeX_bottom_profile-0.dxf");
-
-        linear_extrude(height = 200, center = true, $fn=50)
-                import("axeX_bottom_profile-2.dxf");
-    }
-
-    intersection() {
-        rotate([90, 0, 0])
-            linear_extrude(height = 100, center = true, $fn=50)
-                    import("axeX_bottom_profile-1.dxf");
-
-        linear_extrude(height = 200, center = true, $fn=50)
-                import("axeX_bottom_profile-3.dxf");
-    }
+module bottom_axeX() {
     
-    /* hole axe Z */
-    translate([-26, 34, 14])
-        cylinder(d = 7.5, h=50, $fn = 50);
-    translate([-26, -34, 14])
-        cylinder(d = 7.5, h=50, $fn = 50);
+            difference(){
+                /* body X extrude */
+                intersection() {
+                    rotate([90, 0, 0])
+                        linear_extrude(height = 100, center = true, $fn=50)
+                                import("../profiles/axeX_bottom-s0.dxf");
+        
+                linear_extrude(height = 200, center = true, $fn=50)
+                        import("../profiles/axeX_bottom-s2.dxf");
+            }
+        
+            intersection() {
+                rotate([90, 0, 0])
+                    linear_extrude(height = 100, center = true, $fn=50)
+                            import("../profiles/axeX_bottom-s1.dxf");
+        
+                linear_extrude(height = 200, center = true, $fn=50)
+                        import("../profiles/axeX_bottom-s3.dxf");
+            }
+    
+            /* hole axe Z */
+            translate([-26, 38, 0])
+                cylinder(d = 7.5, center = true, h=50);
+            translate([-26, -38, 0])
+                cylinder(d = 7.5, center = true, h=50);
+            /* bottom hole */
+            translate([24, 0, 0])
+                rotate([0,15,0])
+                cylinder(d = 20, h = 70, center = true, $fn = 50);
+
+        }
 }

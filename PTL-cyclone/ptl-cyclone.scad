@@ -15,14 +15,12 @@
  * =====================================================================
  */
 
-use <./profile/profile_20.scad>
-use <./support_axeY-12/support_axe12.scad>
+use <frame/profile_20.scad>
+use <axeY/support_axeY-12.scad>
 profile = 20;
 cyclone_L = 600;
 cyclone_l = 300;
 cyclone_h = 300;
-
-//profile2020(120);
 
 
 union(){
@@ -54,18 +52,26 @@ union(){
                 profile2020(cyclone_h);
     
     /* base */  
-    translate([(cyclone_l+profile)/2, cyclone_L, 1.5*profile])
-        rotate([90, 0,0])
-            profile2060(cyclone_L);
-    translate([-(cyclone_l+profile)/2, cyclone_L, 1.5*profile])
-        rotate([90, 0,0])
-            profile2060(cyclone_L);
-            
+    difference(){
+        union() {
+            translate([(cyclone_l+profile)/2, cyclone_L, 1.5*profile])
+                rotate([90, 0,0])
+                    profile2060(cyclone_L);
+            translate([-(cyclone_l+profile)/2, cyclone_L, 1.5*profile])
+                rotate([90, 0,0])
+                    profile2060(cyclone_L);
+        }
+        rotate([60, 0, 0])
+            translate([-250, 0, 0])
+                cube([500,100,100]);
+    }
+    
     translate([-cyclone_l/2, 80, 1.5*profile])
         rotate([90, 0, 90])
             profile2060(cyclone_l);
-            
+
     translate([-cyclone_l/2, 530, 1.5*profile])
         rotate([90, 0, 90])
             profile2060(cyclone_l);
+    
 }
