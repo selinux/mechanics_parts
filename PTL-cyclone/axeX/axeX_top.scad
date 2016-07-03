@@ -19,7 +19,7 @@ include <../libs/MCAD/motors.scad>
 screw = 4.5;
 nuts = 8;
 
-//axeX_top();
+axeX_top();
 
 module axeX_top() {
     difference() {

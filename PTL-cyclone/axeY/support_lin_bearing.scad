@@ -19,29 +19,34 @@
  */
 
 
-bearing_len = 32.5;
+bearing_len = 33;
 bearing_dia = 22;
 bearing_rad = bearing_dia/2;
+tightening = 0.3;
 depth_len = 2;
 length = bearing_len + depth_len*2;
 support_len = 25;
 
 screw = 4.5;
-nuts = 8;
+nuts = 8.6;
 depth_screw = 2.5;
-position = 22;
+position = 19.5;
 
 //support_lin_bearing();
 module support_lin_bearing() {
     difference() {
         
         /* Body */
-        translate([0,0,bearing_rad]) {
+        translate([0,0,bearing_rad -tightening]) {
             rotate([90,0,0]) {
                 difference() {
                     /* outside */
-                    linear_extrude(height=length, center =true, $fn=50)
-                             import("../profiles/bearing-lme12-s0.dxf");                
+                    union() {
+                        linear_extrude(height=length, center =true, $fn=50)
+                                 import("../profiles/bearing-lme12-s0.dxf");
+                        linear_extrude(height=6, center =true, $fn=50)
+                                 import("../profiles/bearing-lme12-s2.dxf");
+                    }
                     /* inside */
                     linear_extrude(height=bearing_len, center = true, $fn=50)
                             import("../profiles/bearing-lme12-s1.dxf");
