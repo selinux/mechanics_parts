@@ -20,13 +20,25 @@ nuts = 8;
 
 //axeX_top();
 //axeX_bottom();
-//axeX();
+axeX();
 module axeX() {
-    union() {
-        translate([0, 0, 200])
-            rotate([180, 0, 0])
-                axeX_top();
-        axeX_bottom();
+    difference() {
+        union() {
+            translate([0, 0, 200])
+                rotate([180, 0, 0])
+                    axeX_top();
+            axeX_bottom();
+        }
+    translate([40, 0, 200-16])
+        rotate([90, 0, 0])
+            cylinder(d =16, h = 200, center = true, $fn = 80);
+    translate([20, -26, 19])
+        rotate([90, 0, 0])
+            cylinder(d =25, h = 50, $fn = 80);
+    }
+    translate([20, 26+50, 19])
+        rotate([90, 0, 0])
+            cylinder(d =25, h = 50, $fn = 80);
     }
 }
 /* body X extrude */
@@ -36,23 +48,23 @@ module axeX_bottom() {
         /* body X extrude */
         intersection() {
             rotate([90, 0, 0])
-                linear_extrude(height = 200, center = true, $fn=50)
+                linear_extrude(height = 384, center = true, $fn=50)
                     import("../profiles/axeX_bottom-s0.dxf");
 
-            linear_extrude(height = 150, center = true, $fn=50)
+            linear_extrude(height = 384, center = true, $fn=50)
                 import("../profiles/axeX_bottom-s2.dxf");
             
             rotate([90, 0, 90])
-                linear_extrude(height = 150, center = true, $fn=50)
+                linear_extrude(height = 384, center = true, $fn=50)
                     import("../profiles/axeX_bottom-s4.dxf");  
         }
         
         intersection() {
             rotate([90, 0, 0])
-                linear_extrude(height = 100, center = true, $fn=50)
+                linear_extrude(height = 384, center = true, $fn=50)
                         import("../profiles/axeX_bottom-s1.dxf");
     
-            linear_extrude(height = 200, center = true, $fn=50)
+            linear_extrude(height = 384, center = true, $fn=50)
                     import("../profiles/axeX_bottom-s3.dxf");
         }
 
@@ -73,13 +85,14 @@ module axeX_top() {
     difference() {
         /* body X extrude */
         intersection() {
-            rotate([90, 0, 0])
-                linear_extrude(height = 100, center = true, $fn=50)
-                        import("../profiles/support_motor_axeX-s0.dxf");
-    
-            linear_extrude(height = 250, center = true, $fn=50)
-                    import("../profiles/support_motor_axeX-s1.dxf");
-            
+            intersection() {
+                rotate([90, 0, 0])
+                    linear_extrude(height = 100, center = true, $fn=50)
+                            import("../profiles/support_motor_axeX-s0.dxf");
+        
+                linear_extrude(height = 60, center = true, $fn=50)
+                        import("../profiles/support_motor_axeX-s1.dxf");
+            }
             rotate([90, 0, 90])
                 linear_extrude(height = 200, center = true, $fn=50)
                         import("../profiles/support_motor_axeX-s2.dxf");
