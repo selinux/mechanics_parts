@@ -29,13 +29,12 @@ module axeX() {
                     axeX_top();
             axeX_bottom();
         }
-    translate([40, 0, 200-16])
+    translate([40, 0, 200-19])
         rotate([90, 0, 0])
-            cylinder(d =16, h = 200, center = true, $fn = 80);
+            cylinder(d =19, h = 200, center = true, $fn = 80);
     translate([20, -26, 19])
         rotate([90, 0, 0])
             cylinder(d =25, h = 50, $fn = 80);
-    }
     translate([20, 26+50, 19])
         rotate([90, 0, 0])
             cylinder(d =25, h = 50, $fn = 80);
