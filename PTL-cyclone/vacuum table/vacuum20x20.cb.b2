@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="vacuum20x20">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <pline id="1" Closed="true">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-90,-70,0</p>
+            <p>90,-70,0</p>
+            <p>90,70,0</p>
+            <p>-90,70,0</p>
+          </pts>
+        </pline>
+        <pline id="30">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-90,50,0</p>
+            <p>90,50,0</p>
+            <p>90,30,0</p>
+            <p>-90,30,0</p>
+            <p>-90,10,0</p>
+            <p>90,10,0</p>
+            <p>90,-10,0</p>
+            <p>-90,-10,0</p>
+            <p>-90,-30,0</p>
+            <p>90,-30,0</p>
+            <p>90,-50,0</p>
+            <p>-90,-50,0</p>
+            <p>-90,-70,0</p>
+            <p>-70,-70,0</p>
+            <p>-70,70,0</p>
+            <p>-50,70,0</p>
+            <p>-50,-70,0</p>
+            <p>-30,-70,0</p>
+            <p>-30,70,0</p>
+            <p>-10,70,0</p>
+            <p>-10,-70,0</p>
+            <p>10,-70,0</p>
+            <p>10,70,0</p>
+            <p>30,70,0</p>
+            <p>30,-70,0</p>
+            <p>50,-70,0</p>
+            <p>50,70,0</p>
+            <p>70,70,0</p>
+            <p>70,-70,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts>
+    <part Name="vacuum">
+      <machineops>
+        <engrave>
+          <Style>engrave</Style>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Value">3</ToolDiameter>
+          <ToolNumber state="Value">4</ToolNumber>
+          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <PlungeFeedrate state="Value">100</PlungeFeedrate>
+          <CutFeedrate state="Value">800</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>path</Name>
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">10</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Value">6000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>30</prim>
+          </primitive>
+          <TargetDepth state="Value">-10</TargetDepth>
+          <DepthIncrement state="Value">4</DepthIncrement>
+          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
+          <CutOrdering state="Default">DepthFirst</CutOrdering>
+        </engrave>
+        <engrave>
+          <Style>engrave</Style>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Value">3</ToolDiameter>
+          <ToolNumber state="Value">4</ToolNumber>
+          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <PlungeFeedrate state="Value">100</PlungeFeedrate>
+          <CutFeedrate state="Value">800</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Value" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>contour</Name>
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">10</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Value">6000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>1</prim>
+          </primitive>
+          <TargetDepth state="Value">-10</TargetDepth>
+          <DepthIncrement state="Value">4</DepthIncrement>
+          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
+          <CutOrdering state="Default">DepthFirst</CutOrdering>
+        </engrave>
+      </machineops>
+      <OutFile>{$cbfile.name}-path</OutFile>
+      <Stock>
+        <PMin>0,0</PMin>
+        <PMax>0,0</PMax>
+        <Color>255,165,0</Color>
+      </Stock>
+      <ToolDiameter>3</ToolDiameter>
+      <ToolProfile>EndMill</ToolProfile>
+      <MachiningOrigin>0,0</MachiningOrigin>
+      <Nesting>
+        <BasePoint />
+        <NestMethod>None</NestMethod>
+      </Nesting>
+    </part>
+  </parts>
+  <ActiveLayer>0</ActiveLayer>
+  <ActivePart>vacuum</ActivePart>
+</CADFile>

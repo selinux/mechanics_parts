@@ -16,11 +16,10 @@
 
 
 support_h = 9;
-bearing_d = 15.5;
+bearing_d = 14.8;
 axe_pos = 76;
 
-//axeZ_bottom();
-
+axeZ_bottom();
 module axeZ_bottom() {
     
     difference(){
@@ -36,11 +35,13 @@ module axeZ_bottom() {
             translate([0, 0, 8])
                     linear_extrude(height = 11, $fn=50)
                         import("../profiles/axeZ_top-s1.dxf");
+            
+            
         }
         
-        translate([0, 0, 3])
-            linear_extrude(height = 20, $fn=50)
-                    import("../profiles/axeZ_top-s2.dxf");
+//        translate([0, 0, 3])
+//            linear_extrude(height = 20, $fn=50)
+//                    import("../profiles/axeZ_top-s2.dxf");
         
         translate([26.5, -10, support_h/2])
             rotate([90, 0, 0])
