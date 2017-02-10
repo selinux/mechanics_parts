@@ -45,7 +45,7 @@ module axeX_bottom() {
 
 
         translate([20, 0, 53])
-            cylinder(d=22, h=20);
+            cylinder(d=20.5, h=20);
 
         translate([-26, 0, 27])
             rotate([0, 0, -90])
@@ -73,10 +73,10 @@ module axeX_bottom() {
   
         rotate([90, 0, 0])
             translate([20, 32, 43])
-                 cylinder(d = 30, h = 10, $fn=80);
+                 cylinder(d = 24, h = 10, $fn=80);
         rotate([90, 0, 0])
             translate([20, 32, -53])
-                 cylinder(d = 30, h = 10, $fn=80);
+                 cylinder(d = 24, h = 10, $fn=80);
         
         translate([0,0,53]) {
                 rotate([0,90,0]) {
