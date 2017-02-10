@@ -16,7 +16,7 @@
 
 
 
-nuts_dia = 17.8;
+nuts_dia = 9.5;
 length = 60;
 
 position = 19.5;

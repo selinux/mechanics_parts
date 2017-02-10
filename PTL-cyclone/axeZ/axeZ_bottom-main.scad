@@ -16,7 +16,7 @@
 
 
 support_h = 9;
-bearing_d = 15.5;
+bearing_d = 15;
 axe_pos = 76;
 
 axeZ_bottom();
@@ -42,8 +42,8 @@ module axeZ_bottom() {
             cylinder(d = 3, h = 20, center = true, $fn = 80); 
         
         translate([axe_pos/2, 0, 0])
-            cylinder(d = 16, h = 50, center = true, $fn = 80);
+            cylinder(d = bearing_d, h = 50, center = true, $fn = 80);
         translate([-axe_pos/2, 0, 0])
-            cylinder(d = 16, h = 50, center = true, $fn = 80);
+            cylinder(d = bearing_d, h = 50, center = true, $fn = 80);
     }
 }
