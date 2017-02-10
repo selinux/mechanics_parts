@@ -5,351 +5,327 @@
       <ModificationCount>0</ModificationCount>
       <objects>
         <circle id="1" c="-90,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="2" c="-70,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="3" c="-50,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="4" c="-30,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="5" c="-10,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="6" c="10,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="7" c="30,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="8" c="50,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="9" c="70,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="10" c="90,70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="11" c="-90,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="12" c="-70,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="13" c="-50,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="14" c="-30,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="15" c="-10,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="16" c="10,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="17" c="30,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="18" c="50,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="19" c="70,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="20" c="90,50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="21" c="-90,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="22" c="-70,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="23" c="-50,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="24" c="-30,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="25" c="-10,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="26" c="10,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="27" c="30,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="28" c="50,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="29" c="70,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="30" c="90,30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="31" c="-90,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="32" c="-70,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="33" c="-50,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="34" c="-30,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="35" c="-10,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="36" c="10,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="37" c="30,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="38" c="50,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="39" c="70,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="40" c="90,10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="41" c="-90,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="42" c="-70,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="43" c="-50,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="44" c="-30,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="45" c="-10,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="46" c="10,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="47" c="30,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="48" c="50,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="49" c="70,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="50" c="90,-10,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="51" c="-90,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="52" c="-70,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="53" c="-50,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="54" c="-30,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="55" c="-10,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="56" c="10,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="57" c="30,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="58" c="50,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="59" c="70,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="60" c="90,-30,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="61" c="-90,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="62" c="-70,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="63" c="-50,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="64" c="-30,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="65" c="-10,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="66" c="10,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="67" c="30,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="68" c="50,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="69" c="70,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="70" c="90,-50,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="71" c="-90,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="72" c="-70,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="73" c="-50,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="74" c="-30,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="75" c="-10,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="76" c="10,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="77" c="30,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="78" c="50,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="79" c="70,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="80" c="90,-70,0" d="2">
-          <ModificationCount>4</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="83" c="-80,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="84" c="-60,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="85" c="-40,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="86" c="80,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="87" c="60,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-        </circle>
-        <circle id="88" c="40,0,0" d="2">
-          <ModificationCount>1</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
         </circle>
         <line id="81">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
           <pts>
             <p>-120,80</p>
@@ -357,7 +333,7 @@
           </pts>
         </line>
         <line id="82">
-          <ModificationCount>4</ModificationCount>
+          <ModificationCount>0</ModificationCount>
           <mat m="Identity" />
           <pts>
             <p>100,80</p>
@@ -385,7 +361,7 @@
           <ToolDiameter state="Value">2</ToolDiameter>
           <ToolNumber state="Default">0</ToolNumber>
           <ToolProfile state="Default">Unspecified</ToolProfile>
-          <PlungeFeedrate state="Value">40</PlungeFeedrate>
+          <PlungeFeedrate state="Value">100</PlungeFeedrate>
           <CutFeedrate state="Default">800</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
           <StartPoint state="Default" />
@@ -394,7 +370,7 @@
           <Name>alu_matrice_trous</Name>
           <StockSurface state="Default">0</StockSurface>
           <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Value">5</ClearancePlane>
+          <ClearancePlane state="Value">36</ClearancePlane>
           <SpindleDirection state="Default">CW</SpindleDirection>
           <SpindleSpeed state="Default">1000</SpindleSpeed>
           <SpindleRange state="Default">0</SpindleRange>
@@ -488,7 +464,7 @@
           <LeadOutLength state="Default">0</LeadOutLength>
           <DrillingMethod state="Value">CannedCycle</DrillingMethod>
           <PeckDistance state="Default">0</PeckDistance>
-          <RetractHeight state="Default">5</RetractHeight>
+          <RetractHeight state="Value">3</RetractHeight>
           <Dwell state="Default">0</Dwell>
           <CustomScript state="Value" />
         </drill>
@@ -502,7 +478,7 @@
           <PlungeFeedrate state="Value">250</PlungeFeedrate>
           <CutFeedrate state="Value">1100</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default">0,0,0</StartPoint>
+          <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
           <CustomMOPFooter state="Default" />
           <Name>decoupe_contour</Name>
@@ -581,127 +557,6 @@
           </Tabs>
           <SideProfile state="Default" />
         </profile>
-        <drill>
-          <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Value">None</OptimisationMode>
-          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Value">2</ToolDiameter>
-          <ToolNumber state="Default">0</ToolNumber>
-          <ToolProfile state="Default">Unspecified</ToolProfile>
-          <PlungeFeedrate state="Value">50</PlungeFeedrate>
-          <CutFeedrate state="Value">300</CutFeedrate>
-          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default" />
-          <CustomMOPHeader state="Default" />
-          <CustomMOPFooter state="Default" />
-          <Name>matrice vacuum</Name>
-          <StockSurface state="Default">0</StockSurface>
-          <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Default">3</ClearancePlane>
-          <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Value">10000</SpindleSpeed>
-          <SpindleRange state="Default">0</SpindleRange>
-          <VelocityMode state="Default">Undefined</VelocityMode>
-          <primitive>
-            <prim>1</prim>
-            <prim>2</prim>
-            <prim>3</prim>
-            <prim>4</prim>
-            <prim>5</prim>
-            <prim>6</prim>
-            <prim>7</prim>
-            <prim>8</prim>
-            <prim>9</prim>
-            <prim>10</prim>
-            <prim>11</prim>
-            <prim>12</prim>
-            <prim>13</prim>
-            <prim>14</prim>
-            <prim>15</prim>
-            <prim>16</prim>
-            <prim>17</prim>
-            <prim>18</prim>
-            <prim>19</prim>
-            <prim>20</prim>
-            <prim>21</prim>
-            <prim>22</prim>
-            <prim>23</prim>
-            <prim>24</prim>
-            <prim>25</prim>
-            <prim>26</prim>
-            <prim>27</prim>
-            <prim>28</prim>
-            <prim>29</prim>
-            <prim>30</prim>
-            <prim>31</prim>
-            <prim>32</prim>
-            <prim>33</prim>
-            <prim>34</prim>
-            <prim>35</prim>
-            <prim>36</prim>
-            <prim>37</prim>
-            <prim>38</prim>
-            <prim>39</prim>
-            <prim>40</prim>
-            <prim>41</prim>
-            <prim>42</prim>
-            <prim>43</prim>
-            <prim>44</prim>
-            <prim>45</prim>
-            <prim>46</prim>
-            <prim>47</prim>
-            <prim>48</prim>
-            <prim>49</prim>
-            <prim>50</prim>
-            <prim>51</prim>
-            <prim>52</prim>
-            <prim>53</prim>
-            <prim>54</prim>
-            <prim>55</prim>
-            <prim>56</prim>
-            <prim>57</prim>
-            <prim>58</prim>
-            <prim>59</prim>
-            <prim>60</prim>
-            <prim>61</prim>
-            <prim>62</prim>
-            <prim>63</prim>
-            <prim>64</prim>
-            <prim>65</prim>
-            <prim>66</prim>
-            <prim>67</prim>
-            <prim>68</prim>
-            <prim>69</prim>
-            <prim>70</prim>
-            <prim>71</prim>
-            <prim>72</prim>
-            <prim>73</prim>
-            <prim>74</prim>
-            <prim>75</prim>
-            <prim>76</prim>
-            <prim>77</prim>
-            <prim>78</prim>
-            <prim>79</prim>
-            <prim>80</prim>
-            <prim>83</prim>
-            <prim>84</prim>
-            <prim>85</prim>
-            <prim>86</prim>
-            <prim>87</prim>
-            <prim>88</prim>
-          </primitive>
-          <HoleDiameter state="Value">2</HoleDiameter>
-          <TargetDepth state="Value">-3</TargetDepth>
-          <DepthIncrement state="Default">0.4</DepthIncrement>
-          <DrillLeadOut state="Default">False</DrillLeadOut>
-          <SpiralFlatBase state="Default">True</SpiralFlatBase>
-          <LeadOutLength state="Default">0</LeadOutLength>
-          <DrillingMethod state="Value">CannedCycle</DrillingMethod>
-          <PeckDistance state="Default">0</PeckDistance>
-          <RetractHeight state="Default">3</RetractHeight>
-          <Dwell state="Default">0</Dwell>
-          <CustomScript state="Default" />
-        </drill>
       </machineops>
       <Stock>
         <PMin>0,0</PMin>
@@ -710,7 +565,7 @@
       </Stock>
       <ToolProfile>Unspecified</ToolProfile>
       <Nesting>
-        <BasePoint>0,0</BasePoint>
+        <BasePoint />
         <NestMethod>None</NestMethod>
       </Nesting>
     </part>
