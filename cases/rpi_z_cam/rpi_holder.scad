@@ -33,8 +33,8 @@ module mobile(){
       difference() {
         translate([-19,0,-3.5]) cube([38,29,1.5]);
         // opening
-        translate([-19,0,-3.5]) cube([3,9,20], center=true);
-        translate([19,0,-3.5]) cube([3,9,20], center=true);
+        translate([-19,0,-3.5]) cube([4,11,20], center=true);
+        translate([19,0,-3.5]) cube([4,11,20], center=true);
       }
   
       // rotation
@@ -47,7 +47,7 @@ module mobile(){
     translate([1,0,6]) cube([32,60,12], center=true);
     translate([11.6,14,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
     translate([-11.6,14,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
-    translate([-12,-5,0]) cube([24,10,15]);
+    #translate([-12,-5,0]) cube([26,10,15]);
     translate([-15,-2,-2]) cube([7,12.5,5]);
   }
 }
@@ -61,7 +61,7 @@ module support(){
         translate([0,-1,0]) square([22,2]);
         translate([21.25,-2.5,0]) square([2,5]);
       }
-      translate([0,0,-5]) cylinder(d=35, h=10, $fn=100);
+      translate([0,0,-5]) cylinder(d=37, h=10, $fn=100);
       translate([-50,0,-5]) cube([100,60,10]); 
     }
 
@@ -114,5 +114,4 @@ module cam(){
 //}
 //translate([0,0,6]) rotate([-90,0,0]) support();
 
-//mobile();
 
