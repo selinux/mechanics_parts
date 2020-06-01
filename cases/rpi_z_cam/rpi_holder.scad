@@ -16,7 +16,7 @@
 
 /* mobile rpi holder */
 module mobile(){
-  translate([0, 25, 2]) difference(){
+  translate([0, 29, 2]) difference(){
     union() {
       rotate([0,90,0])  cylinder(d=8,h=38, center=true, $fn=50);
       translate([0,0,-3]) cube([38,8,5], center=true);
@@ -28,7 +28,7 @@ module mobile(){
 
   difference(){
     union(){
-      translate([-15, 0, -3.5]) cube([30,20,3.5]);
+      translate([-15, 0, -3.5]) cube([30,24,3.5]);
       // base
       difference() {
         translate([-19,0,-3.5]) cube([38,29,1.5]);
@@ -45,10 +45,10 @@ module mobile(){
     }
     translate([-50,-20,-53.5]) cube([100, 100, 50]);
     translate([1,0,6]) cube([32,60,12], center=true);
-    translate([11.6,14,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
-    translate([-11.6,14,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
-    #translate([-12,-5,0]) cube([26,10,15]);
-    translate([-15,-2,-2]) cube([7,12.5,5]);
+    translate([11.6,18,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
+    translate([-11.6,18,0]) cylinder(d=5.5,h=5, center=true, $fn=50);
+    translate([-12,-5,0]) cube([26,10,15]);
+    translate([-15,-2,-2]) cube([7,16.5,5]);
   }
 }
 
@@ -91,27 +91,46 @@ module cam(){
       difference() { 
         hull(){
           translate([0,-5,0]) cube([3,10,1.5]);
-          translate([1.5,-10,11]) rotate([90,0,90]) cylinder(d=6, h=3, center=true, $fn=50);
+          translate([1.5,-10,11]) rotate([90,0,90]) cylinder(d=8, h=3, center=true, $fn=50);
         }
-        translate([1,-10,11]) rotate([90,0,90]) cylinder(d=2.5, h=10, center=true, $fn=50);
+        translate([1,-10,11]) rotate([90,0,90]) cylinder(d=3.5, h=10, center=true, $fn=50);
       }
     } 
     translate([12,0,0]) union() {
       difference() { 
         hull(){
           translate([0,-5,0]) cube([3,10,1.5]);
-          translate([1.5,-10,11]) rotate([90,0,90]) cylinder(d=6, h=3, center=true, $fn=50);
+          translate([1.5,-10,11]) rotate([90,0,90]) cylinder(d=8, h=3, center=true, $fn=50);
         }
-        translate([1,-10,11]) rotate([90,0,90]) cylinder(d=2.5, h=10, center=true, $fn=50);
+        translate([1,-10,11]) rotate([90,0,90]) cylinder(d=3.5, h=10, center=true, $fn=50);
       }
     }
   }
 }
 
-//rotate([0,-45,0]) {
+module feet(){
+
+  x0=20;
+  y0=22;
+  z0=22;
+  difference() {
+    translate([0,0,z0/2]) cube([x0,y0,z0], center=true);
+    translate([-1.5,0,z0/2+7.5]) cube([x0+5,y0-3,4], center=true);
+    translate([4,0,z0/2-2.5]) cube([x0+5,y0-3,13], center=true);
+    cylinder(d=7, h=10, center=true, $fn=50);
+    translate([0,-3,-5]) cube([x0,6,10], center=false);
+  }
+  intersection(){
+    translate([-1.5,0,z0/2+7.5]) cube([x0,y0-3,4], center=true);
+    translate([0,0,7.5]) sphere(r=10, $fn=50);
+  }  
+}
+
+rotate([0,-45,0]) {
   mobile();
-//  translate([0,38,9]) rotate([20,180,0]) cam();
-//}
-//translate([0,0,6]) rotate([-90,0,0]) support();
+  translate([0,38,9]) rotate([20,180,0]) cam();
+}
+translate([0,0,6]) rotate([-90,0,0]) support();
 
-
+translate([-40,0,-17]) feet();
+translate([40,0,-17]) rotate([0,0,180]) feet();
