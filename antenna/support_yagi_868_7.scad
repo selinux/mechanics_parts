@@ -2,9 +2,9 @@
  *
  *       Filename:  
  *
- *    Description:  tripod support for 70cm/2m 3 elements Yagi antenna
+ *    Description:  tripod support for 868Mhz Yagi antenna
  *
- *        Version:  1.1
+ *        Version:  1.0
  *        Created:  06 09 2026
  *       Revision:  none
  *       Compiler:  openscad
@@ -19,7 +19,6 @@ label = "sinux";
 
 Lt = 42;
 Hb = 10;
-
 
 difference(){
   union(){
@@ -41,11 +40,10 @@ module support(){
 
 
 module inner(){
-  sq=21;
+  sq=22;
   cube([4, Lt+1, Hb+15], center=true);
   translate([0,0,22])
-    rotate([90,0,0])
-      cylinder(h=Lt+1,d=32, $fn=50, center=true);
+    cube([sq,Lt+1,sq], center=true);
 }
 
 module base(){
