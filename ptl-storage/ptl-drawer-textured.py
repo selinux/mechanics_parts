@@ -146,6 +146,8 @@ if __name__ == "__main__":
         chamfer,
         Align,
         GridLocations,
+        export_step,
+        export_stl,
     )
 
     length, width, height, s = 226.0, 300.0, 112.0, 3.0
@@ -221,6 +223,8 @@ if __name__ == "__main__":
     part = plate - cutter0 - cutter1 - cutter2
 
     ocp.show(part)  # , plate.faces().filter_by(Plane.XZ).sort_by(Axis.Y)[0])
+    export_step(plate, "ptl-storage/ptl-drawer-voronoi.step")
+    export_stl(plate, "ptl-storage/ptl-drawer-voronoi.stl")
 
     # for kind, kw in (("voronoi", dict(cell_size=9, seed=3, fillet=0.5)),
     #                 ("honeycomb", dict(cell_size=9, angle=0))):
