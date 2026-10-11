@@ -222,9 +222,9 @@ if __name__ == "__main__":
     cutter2 = Compound(extrude(cells2, -s))
     part = plate - cutter0 - cutter1 - cutter2
 
-    ocp.show(part)  # , plate.faces().filter_by(Plane.XZ).sort_by(Axis.Y)[0])
-    export_step(plate, "ptl-storage/ptl-drawer-voronoi.step")
-    export_stl(plate, "ptl-storage/ptl-drawer-voronoi.stl")
+    ocp.show(part)
+    export_step(part, "ptl-storage/ptl-drawer-voronoi.step")
+    export_stl(part, "ptl-storage/ptl-drawer-voronoi.stl")
 
     # for kind, kw in (("voronoi", dict(cell_size=9, seed=3, fillet=0.5)),
     #                 ("honeycomb", dict(cell_size=9, angle=0))):
